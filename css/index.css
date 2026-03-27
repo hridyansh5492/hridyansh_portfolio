@@ -115,25 +115,34 @@ body{
     padding-bottom: 10vh;
 }
 
+/*intro image*/
 #iImage{
-    background-image: url("/images/iImage.png");
+    background-image: url("/images/iImage.svg");
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 90vh;
+    height: 92vh;
 }
 
+/*about-section*/
 #about-section{
     margin-top: 10vh;
     margin-left: 5vh;
     width: 75%;
 }
 
-#about-section p, h1, h2, h3, h4, h5, h6{
+#about-section p,
+#about-section h1,
+#about-section h2,
+#about-section h3,
+#about-section h4,
+#about-section h5,
+#about-section h6{
     margin: 0;
 }
 
-#about-section h3, h4{
+#about-section h3,
+#about-section h4{
     font-style: italic;
 }
 
@@ -151,6 +160,7 @@ body{
     overflow: hidden;
     white-space: nowrap;
     margin: 0;
+    flex-shrink: 0px;
 }
 
 #term{
