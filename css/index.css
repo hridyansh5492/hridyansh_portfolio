@@ -124,11 +124,35 @@ body{
     height: 92vh;
 }
 
-/*about-section*/
-#about-section{
-    margin-top: 10vh;
+/*sparking Ideas*/
+#sparky {
+    border-bottom: #ffffff 0.5vh solid;
+}
+
+#sparkingIdeas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7vh;
     margin-left: 5vh;
-    width: 75%;
+}
+
+#sparkingIdeas-title {
+    width: 35%;
+}
+
+#sparkingIdeas-content{
+    width: 55%;
+    margin: 0% 0% 7% 5%;
+}
+
+/*about-section*/
+#about-me {
+    border-bottom: #ffffff 0.5vh solid;
+}
+
+#about-section{
+    margin-top: 7vh;
+    margin-left: 5vh;
 }
 
 #about-section p,
@@ -146,11 +170,33 @@ body{
     font-style: italic;
 }
 
+#about-title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+#about-title-number {
+    font-size: 2.5rem;
+}
+
+#about-title-name {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#about-content {
+    gap: 5vh;
+    margin-bottom: 7vh;
+}
+
 #changingTerm{
     margin-top: 5vh;
     margin-left: 5vh;
     width: 75%;
+    height: 2.25rem;
     display: flex;
+    margin: 5px 0px 10px 0px;
 }
 
 #changingTerm p{
