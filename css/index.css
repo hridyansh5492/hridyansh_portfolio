@@ -259,6 +259,31 @@ body{
 }
 
 
+/*contact form*/
+#contact {
+    border-bottom: #ffffff 0.5vh solid;
+}
+
+#contact-section{
+    margin-top: 7vh;
+    margin-left: 5vh;
+}
+
+#contact-title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+#contact-title-name {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#contact-content {
+    gap: 5vh;
+    margin-bottom: 7vh;
+}
 
 #contform{
     display: grid;
@@ -296,6 +321,7 @@ button{
     font-size: 100%;
 }
 
+/*footer
 #bottomB{
     width: 100%;
     height: 7%;
@@ -346,3 +372,4 @@ button{
 #connectM{
     margin-left: 2vh;
 }
+*/
