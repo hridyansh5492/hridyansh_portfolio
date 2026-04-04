@@ -276,8 +276,9 @@ body{
 }
 
 #contact-title-name {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
+    margin: 0;
 }
 
 #contact-content {
@@ -285,8 +286,19 @@ body{
     margin-bottom: 7vh;
 }
 
-#contform{
-    display: grid;
+#contact-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-detail-info {
+    margin: 0;
 }
 
 input, button{
