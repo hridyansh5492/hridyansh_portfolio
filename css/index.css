@@ -127,6 +127,7 @@ body{
 /*sparking Ideas*/
 #sparky {
     border-bottom: #ffffff 0.5vh solid;
+    width: 100%;
 }
 
 #sparkingIdeas{
@@ -148,6 +149,7 @@ body{
 /*about-section*/
 #about-me {
     border-bottom: #ffffff 0.5vh solid;
+    width: 100%;
 }
 
 #about-section{
@@ -244,6 +246,7 @@ body{
                                 */
 #projects {
     border-bottom: #ffffff 0.5vh solid;
+    width: 100%;
 }
 
 #projects-section{
@@ -262,6 +265,7 @@ body{
 /*contact form*/
 #contact {
     border-bottom: #ffffff 0.5vh solid;
+    width: 100%;
 }
 
 #contact-section{
@@ -301,8 +305,19 @@ body{
     margin: 1vh;
 }
 
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#contact-message-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 input, button{
-    margin: 2vh;
+    margin: 2vh 2vh 2vh 0vh;
     height: 5vh;
     background-color: transparent;
     color: #ffffff;
@@ -323,15 +338,22 @@ textarea{
     font-size: 100%;
 }
 
+#form-submit-button{
+    margin: 2vh 2vh 2vh 0vh;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    color: #ffffff;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    font-size: 100%;
+}
+
 #message{
     height: 15vh;
 }
 
-button{
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 100%;
-}
 
 /*footer
 #bottomB{
