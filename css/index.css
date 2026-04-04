@@ -308,7 +308,6 @@ body{
 #contact-form {
     display: flex;
     flex-direction: column;
-    gap: 2vh;
 }
 
 #contact-message-text {
@@ -316,21 +315,17 @@ body{
     font-weight: bold;
 }
 
-input, button{
-    margin: 2vh 2vh 2vh 0vh;
-    height: 5vh;
-    background-color: transparent;
-    color: #ffffff;
-    border: 0;
-    border-bottom: 2px solid #ffffff;
-    outline: none;
-    font-size: 100%;
+#contact-form-content {
+    display: flex;
+    flex-direction: column;
 }
 
-textarea{
+.form-input-field {
+    margin: 0vh 2vh 2vh 0vh;
     width: 95%;
-    margin: 2vh;
+    height: 7vh;
     background-color: transparent;
+    color: #ffffff;
     border: 0;
     border-bottom: 2px solid #ffffff;
     resize: none;
@@ -338,12 +333,15 @@ textarea{
     font-size: 100%;
 }
 
+#contact-form-submit {
+    margin: 0% 0% 0% 0.24%;
+}
+
 #form-submit-button{
     margin: 2vh 2vh 2vh 0vh;
-    width: 100%;
-    height: 5vh;
-    background-color: transparent;
-    color: #ffffff;
+    width: 95%;
+    height: 7vh;
+    color: #000000;
     border: 0;
     border-bottom: 2px solid #ffffff;
     outline: none;
