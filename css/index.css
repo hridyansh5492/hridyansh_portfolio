@@ -262,13 +262,49 @@ body{
     margin-left: 5vh;
 }
 
-#project-items{
+#projects-title{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+#projects-title-number {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#projects-title-name {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+#project-item-grid {
+    display: flex;
+    flex-direction: column;
     gap: 5vh;
     margin-top: 5vh;
 }
 
+#project-items-row-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+}
+
+.project-itembox-square {
+    width: 35%;
+    height: 30vh;
+    background-color: #ffffff;
+    margin-bottom: 7%;
+}
+
+.project-itembox-rectangle {
+    width: 55%;
+    height: 25vh;
+    background-color: #ffffff;
+    margin-bottom: 10%;
+}
 
 /*contact form*/
 #contact {
