@@ -231,27 +231,7 @@ body{
     }
 }
 
-/*projects-section
-<div id="projects">
-                    <div id="projects-section">
-                        <div id="projects-title">
-                            <p id="projects-title-number">02</p>
-                            <p id="projects-title-name">Projects</p>
-                        </div>
-                        <div id="projects-content">
-                            <p>Here are a few projects I've worked on recently.</p>
-                            <div id="project-items">
-                                <div id="project-itembox">
-                                    <div id="project-item-image">
-                                    </div>
-                                    <div class="project-item-title">
-                                        <h3>Project 1</h3>
-                                    </div>
-                                    <div class="project-item-description">
-                                        <p>A brief description of Project 1.</p>
-                                    </div>
-                                </div>
-                                */
+/*projects-section*/
 #projects {
     border-bottom: #ffffff 0.5vh solid;
     width: 100%;
