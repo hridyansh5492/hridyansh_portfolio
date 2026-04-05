@@ -66,7 +66,7 @@ body{
     position: relative;
     width: 100%;
     border: 0;
-    height: 8vh;
+    gap: 10px;
     overflow: hidden;
     justify-content: left;
     text-decoration: none;
